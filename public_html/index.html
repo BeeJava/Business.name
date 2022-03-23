@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Branko Erkanovic">
+        <meta name="description" content="Business name">
+        <meta name="keywords" content="business name, bootstrap5, ">
+        <meta name="theme" content="#2a1c20">
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Business name">
+        <link rel="apple-touch-icon" href="./apple-icon-144x144.png">
+
+        <!--Android compatibility-->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Business name">
+        <link rel="icon" type="image/png" href="./android-icon-192x192.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=PT+Sans:wght@700&family=Pacifico&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+        <title>Business Name</title>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+        <!-- header start -->
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- container start -->
+                <div class="container">
+                    <!-- logo start -->
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" width="194" height="28" alt=""/>
+                    </a><!-- logo end -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span data-class="rotate-45"></span>
+                        <span data-class="d-none"></span>
+                        <span data-class="rotate-neg45"></span>
+                    </button>
+                    <!-- navigation start -->
+                    <div class="collapse navbar-collapse" id="nav-menu">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div><!-- navigation end -->
+                </div><!-- container end -->
+            </nav>
+        </header><!-- header end -->
+
+        <!-- main start -->
+        <main>
+            <!-- home start -->
+            <section class="home" id="home">
+
+                <div id="home-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators align-items-center mb-0">
+                        <button type="button" data-bs-target="#home-slider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#home-slider" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#home-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: linear-gradient(to right, rgba(10, 3, 18, 0.51), rgba(10, 3, 18, 0.51)), url(./images/home.jpg)">
+                            <div class="container">
+                                <div class="carousel-caption text-white">
+                                    <h1 class="home-content-title mb-0">Simple,Fresh & Unique Design</h1>
+                                    <p class="lead">Donec posuere augue venenatis,</p>
+                                    <a href="#" class="home-content-link btn btn-info">show more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(10, 3, 18, 0.51), rgba(10, 3, 18, 0.51)), url(./images/home.jpg)">
+                            <div class="container">
+                                <div class="carousel-caption text-white">
+                                    <h1 class="home-content-title mb-0">Simple,Fresh & Unique Design</h1>
+                                    <p class="lead">Donec posuere augue venenatis,</p>
+                                    <a href="#" class="home-content-link btn btn-info">show more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(10, 3, 18, 0.51), rgba(10, 3, 18, 0.51)), url(./images/home.jpg)">
+                            <div class="container">
+                                <div class="carousel-caption text-white">
+                                    <h1 class="home-content-title mb-0">Simple,Fresh & Unique Design</h1>
+                                    <p class="lead">Donec posuere augue venenatis,</p>
+                                    <a href="#" class="home-content-link btn btn-info">show more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev align-items-start" type="button" data-bs-target="#home-slider" data-bs-slide="prev">
+                        <span class="fas fa-chevron-left"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next align-items-start" type="button" data-bs-target="#home-slider" data-bs-slide="next">
+                        <span class="fas fa-chevron-right"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </section><!-- home end -->
+
+            <!-- services start -->
+            <section class="services" id="services">
+                <div class="container text-center">
+                    <h2 class="section-title mb-3">what we offer</h2>
+                    <p>Vestibulum elementum ex ullamcorper ligula vulputate</p>
+
+                    <div class="row gy-5">
+                        <!-- services item start -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-right">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-tools d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Vivamus tincidunt</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-left">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-shopping-cart d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Etiam porttitor sagittis ipsum</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-right">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-layer-group d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Vivamus tincidunt diam a iaculis</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-left">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-chart-bar d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Donec metus augue</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-right">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-clock d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Aliquam sed mollis</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                        <div class="col-12 col-md-6 animation" data-animation="slide-left">
+                            <a href="#" class="services-item d-block h-100">
+                                <div class="row gy-2">
+                                    <!-- services item icon start -->
+                                    <div class="col-12 col-lg-2">
+                                        <aside class="services-item-icon text-lg-end h-100"> 
+                                            <span class="fas fa-globe-europe d-inline-block mb-2 mb-lg-0"></span>
+                                        </aside>
+                                    </div><!-- services item icon end -->
+                                    <!-- services item content start -->
+                                    <div class="col-12 col-lg-10">
+                                        <div class="services-item-content h-100 text-lg-start">
+                                            <h6>Vestibulum placerat nisl quis</h6>
+                                            <p>
+                                                Fusce velit magna, rutrum id pellentesque in, imperdiet
+                                                rutrum neque. Vestibulum elementum ex ullamcorper ligula
+                                                vulputate, non malesuada nisi ullamcorper. Curabitur 
+                                                tellus ligula, laoreet vitae lectus vitae
+                                            </p>
+                                        </div>
+                                    </div><!-- services item content end -->
+                                </div>
+                            </a>
+                        </div><!-- services item end -->
+                    </div>
+                </div>
+            </section><!-- services end -->
+
+            <!-- about start -->
+            <section class="about" id="about" style="background-image: url(./images/about.jpg)">
+                <div class="container">
+                    <!-- about content start -->
+                    <article class="about-content text-secondary text-center mx-auto text-lg-end text-xl-start ms-lg-auto me-lg-0 animation"
+                             data-animation="slide-down">
+                        <h2 class="section-title text-white">who we are</h2>
+                        <p class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent dui massa, condimentum a nisl quis, tristique
+                            efficitur erat. Aenean ut suscipit urna. Donec efficitur
+                            tristique lobortis. Nullam eu efficitur lacus, et blandit
+                            tellus. Mauris viverra condimentum tellus vitae sollicitudin.
+                            Mauris quis mattis urna. Suspendisse auctor magna quis
+                            ipsum ultrices scelerisque. Vestibulum quis hendrerit enim.
+                            Aenean viverra aliquam ex, sed ornare risus porta in.
+                        </p>
+                        <p>
+                            Aenean ut suscipit urna. Donec efficitur tristique lobortis.
+                            Nullam eu efficitur lacus, et blandit tellus. Mauris viverra
+                            condimentum tellus vitae sollicitudin. Mauris quis mattis urna.
+                            Suspendisse auctor magna quis ipsum ultrices scelerisque.
+                            Vestibulum quis hendrerit enim. Aenean viverra aliquam ex,
+                            sed ornare risus porta in.
+                        </p>
+                        <a href="#" class="btn btn-warning about-link">read more</a>
+                    </article><!-- about content end -->
+                </div>
+            </section><!-- about end -->
+
+            <!-- portfolio start -->
+            <section class="portfolio" id="portfolio">
+                <div class="container-fluid px-0">
+                    <div class="container text-center">
+                        <h2 class="section-title">see our work</h2>
+                        <p class="portfolio-text mx-auto">
+                            Mauris euismod ac nulla vitae fermentum. Morbi ut mauris massa.
+                            Sed condimentum elit volutpat turpis sagittis, in scelerisque
+                            dui luctus. Nulla id suscipit velit, a maximus massa.
+                        </p>
+                        <!-- portfolio navigation start -->
+                        <nav class="portfolio-nav">
+                            <ul class="portfolio-navmenu ps-0 d-md-flex justify-content-md-center">
+                                <li>
+                                    <a href="#" class="active" data-display="all">All</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-display="web">Web</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-display="logo-design">Logo Design</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-display="wordpress">WordPress</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-display="e-commerce">E-commerce</a>
+                                </li>
+                            </ul>
+                        </nav><!-- portfolio navigation end -->
+                    </div>
+                    <div class="row g-0">
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="logo-design, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-01.jpg" alt="portfolio-01">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-01.jpg" class="far fa-eye d-inline-block mb-4" 
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-01.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="web, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-02.jpg" alt="portfolio-02">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-02.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-02.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="web, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-03.jpg" alt="portfolio-03">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-03.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-03.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="e-commerce, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-04.jpg" alt="portfolio-04">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-04.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-04.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="wordpress, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-05.jpg" alt="portfolio-05">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-05.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-05.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="e-commerce, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-06.jpg" alt="portfolio-06">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-06.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-06.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="e-commerce, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-07.jpg" alt="portfolio-07">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-07.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-07.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+                        <!-- portfolio picture start -->
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3" data-display="logo-design, all">
+                            <figure class="h-100 portfolio-picture mb-0">
+                                <img src="./images/portfolio/portfolio-08.jpg" alt="portfolio-08">
+                                <div class="portfolio-hover text-white">
+                                    <div class="text-center">
+                                        <a href="./images/portfolio/portfolio-08.jpg" class="far fa-eye d-inline-block mb-4"
+                                           data-fancybox="portfolio-gallery" data-thumb="./images/portfolio/portfolio-08.jpg"></a>
+                                        <h6 class="mb-2">Labore et dolore magnam</h6>
+                                        <p class="mb-0">Wordpress</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div><!-- portfolio picture end -->
+
+                    </div>
+                </div>
+            </section><!-- portfolio end -->
+
+            <!-- testimonials start -->
+            <section class="testimonials" id="testimonials">
+                <!-- container start -->
+                <div class="container text-center">
+                    <h2 class="section-title">testimonials</h2>
+                    <!-- testimonials slider start -->
+                    <div class="testimonials-slider owl-carousel owl-theme"> 
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+
+                        <article class="h-100 testimonials-item">
+                            <p class="testimonials-item-text">
+                                “Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consec tetur, adipisci velit,
+                                sed quia non numquam eius modi tempora incidunt
+                                utis labore et dolore magnam aliquam quaerat
+                                voluptatem. Ut enim ad minimas veniam, consequatur
+                                slores amet untras vel illum numquam eius qui.”
+                            </p>
+                            <p class="testimonials-item-user">
+                                <span class="fas fa-user-tie"></span>
+                                Jon Doe, Company Inc.
+                            </p>
+                        </article>
+                    </div><!-- testimonials slider end -->
+                </div><!-- container end -->
+            </section><!-- testimonials end -->
+
+            <!-- contact start -->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="row g-5">
+                        <!-- contact item start -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="contact-item text-center text-sm-start h-100">
+                                <h5 class="contact-item-title">
+                                    <a href="./index.html">Business name</a>
+                                </h5>
+                                <p class="mb-0">
+                                    Donec vitae cursus quam. Etiam dignissim, nulla a
+                                    congue auctor, massa urna cursus enim, id sodales
+                                    elit ligula quis diam. Morbi ut semper augue. Fusce
+                                    sit amet lectus turpis. Integer a cursus tellus, et
+                                    imperdiet purus. Donec sed orci placerat, vulputate
+                                    risus id, faucibus massa. Mauris justo arcu,
+                                    faucibus at nunc quis
+                                </p>
+                            </article>
+                        </div><!-- contact item end -->
+                        <!-- contact item start -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="contact-item text-center text-sm-start h-100">
+                                <h5 class="contact-item-title">Contact</h5>
+                                <p class="mb-4">
+                                    There are many variations of passages of Lorem Ipsum
+                                    available, but the majority have suffered alteration in so
+                                </p>
+                                <p>
+                                    <a href="https://maps.google.com" class="contact-item-link d-flex align-items-start" target="_blank">
+                                        <span class="fas fa-map-marker-alt pe-4 contact-info-icon"></span>
+                                        <span class="contact-item-link-text">hyderabadh</span>
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@company.com" class="contact-item-link align-items-start d-flex">
+                                        <span class="fas fa-envelope pe-4 contact-info-icon"></span>                                  
+                                        <span class="contact-item-link-text">info@company.com</span>
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="tel:1234567890" class="contact-item-link d-flex align-items-start">
+                                        <span class="fas fa-phone-alt pe-4 contact-info-icon"></span>
+                                        <span class="contact-item-link-text">123 456 7890</span>
+                                    </a>
+                                </p>
+                            </article>
+                        </div><!-- contact item end -->
+                        <!-- contact item start -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="contact-item text-center text-sm-start h-100">
+                                <h5 class="contact-item-title">latest tweets</h5>
+                                <a href="https://twitter.com" target="_blank" class="contact-twitter d-flex mb-3">
+                                    <aside class="contact-item-icon">
+                                        <span class="fab fa-twitter"></span>
+                                    </aside>
+                                    <div class="contact-item-text">
+                                        <p class="mb-0">
+                                            Curabitur felis nibh, lacinia non rhoncus vel,
+                                            lobortis et lorem. Class aptent taciti sociosqu
+                                            ad litora torquent per conubia nostra, per
+                                        </p>
+                                        <span>5 Hours  Ago</span>
+                                    </div>
+                                </a>
+                                <a href="htpps://twitter.com" target="_blank" class="contact-twitter d-flex">
+                                    <aside class="contact-item-icon">
+                                        <span class="fab fa-twitter"></span>
+                                    </aside>
+                                    <div class="contact-item-text">
+                                        <p class="mb-0">
+                                            Curabitur felis nibh, lacinia non rhoncus vel,
+                                            lobortis et lorem. Class aptent taciti sociosqu
+                                            ad litora torquent
+                                        </p>
+                                        <span>6 Hours  Ago</span>
+                                    </div>
+                                </a>
+                            </article>
+                        </div><!-- contact item end -->
+                        <!-- contact item start -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="contact-item text-center text-sm-start h-100">
+                                <h5 class="contact-item-title">news letter</h5>
+                                <p class="contact-input-text">
+                                    Type your email address below and receive our daily news letter for free
+                                </p>
+                                <form class="subscribe-form" method="post" action="">
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <input class="form-control" type="email" name="email" value="" placeholder="Email Address">
+                                            <button class="btn btn-info" name="subscribe" value="yes" type="submit">Submit</button>
+                                        </div>
+                                        <div class="error-message"></div>
+                                    </div>
+                                </form>
+                            </article>
+                        </div><!-- contact item end -->
+                    </div>
+                </div>
+            </section><!-- contact end -->
+        </main><!-- main end -->
+
+        <!-- footer start -->
+        <footer>
+            <div class="container text-center d-md-flex justify-content-md-between align-items-md-center">
+                <p class="mb-4 mb-md-0">
+                    © 2015 <a href="#home" class="business-name-link" data-tooltip="Back to home page!">Business name</a>.All rights reserved.
+                </p>
+                <p class="mb-4 mb-md-0">
+                    Designed by <a href="#" class="colorpixels-link" data-tooltip="Click to go to this link!">Colorpixels.net</a>
+                </p>
+                <nav class="social">
+                    <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                    <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin-in"></a>
+                </nav>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <script src="js/main.js" type="text/javascript"></script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/85bd05dd45.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
