@@ -57,15 +57,15 @@ $(document).ready(function () {
         $(this).addClass('active');
         $(this).parent().siblings().find('a').removeClass('active');
         let dataDisplay = $(this).attr('data-display');
-        
+        let sectionHeight = $('.portfolio').outerHeight();
         $('.portfolio .row > div').each(function () {
             if ($(this).attr('data-display').includes(dataDisplay)) {
                 $(this).show(700);
-                
+                $('.portfolio').height(sectionHeight);
                 $(this).find('a.far').attr('data-fancybox', 'portfolio-gallery');
             } else {
                 $(this).hide(700);
-                
+                $('.portfolio').height(sectionHeight);
                 $(this).find('a.far').removeAttr('data-fancybox');
             }
         });
