@@ -50,7 +50,7 @@ $(document).ready(function () {
         });
     }
     animation();
-
+function showLink(){
     $('.portfolio-navmenu a').click(function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -71,7 +71,11 @@ $(document).ready(function () {
         });
 
     });
-
+};
+showLink();
+    $window().resize(function(){
+    showLink();
+    });
    
 
 
